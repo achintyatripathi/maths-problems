@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="custom.css" type="text/css" />
+</head>
+<body>
+<div align="center">
+<h1>
+<p><em><strong>Euler Method .</strong></em> </h></p>
+<hr />
+<em>Q1.</em> Find the value of y at x = 0.4, for <em><span class="math inline">(<em>d</em><em>y</em>/<em>d</em><em>x</em>)+2<em>x</em><em>y</em><sup>2</sup> = 0</span></em> : y(0) = 1, h = 0.2 by using Euler method.
+</div>
+<hr />
+<h1 id="solution">Solution :</h1>
+<h2 id="we-know-that---x00.0-y01">We Know that -       <strong>x<sub>0</sub>=0.0 , y<sub>0</sub>=1</strong></h2>
+<div align="center">
+<h2>
+y<sub>n+1</sub>=y<sub>n</sub>+h <em>f</em> (x<sub>n</sub>,y<sub>n</sub>)
+</h2>
+</div>
+<h3 id="step-1-using-the-above-equation-we-know"><span style="color:blue"> Step 1:</span> Using the above equation we know<br></h3>
+<div align="center">
+<h2>
+y <sub>1</sub>=y<sub>0</sub>+h <em>f</em> (x<sub>0</sub>,y<sub>0 </sub>)
+</h2>
+</div>
+<div align="center">
+<h2>
+<table>
+<thead>
+<tr class="header">
+<th>x<sub>0</sub></th>
+<th>y<sub>0</sub></th>
+<th>f(x<sub>0</sub>,y<sub>0</sub>)</th>
+<th>x<sub>1</sub>=x<sub>0</sub>+h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>x<sub>0</sub>=0.000</td>
+<td>y<sub>0</sub>=1.000</td>
+<td>y<sub>1</sub>=1.000</td>
+<td>x<sub>1</sub>=0.2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="step-2we-know"><span style="color:blue"> Step 2:</span>We know</h3>
+<div align="center">
+<h2>
+y <sub>2</sub>=y<sub>1</sub>+h <em>f</em> (x<sub>1</sub>,y<sub>1 </sub>)
+</h2>
+</div>
+<div align="center">
+<h2>
+<table>
+<thead>
+<tr class="header">
+<th>x<sub>1</sub></th>
+<th>y<sub>1</sub></th>
+<th>f(x<sub>1</sub>,y<sub>1</sub>)</th>
+<th>x<sub>2</sub>=x<sub>1</sub>+h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>x<sub>1</sub>=0.2</td>
+<td>y<sub>1</sub>=1.000</td>
+<td>y<sub>2</sub>=.9200</td>
+<td>x<sub>2</sub>=0.4</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="so-y0.4.9200-is-the-answer-of-the-equation.">So <span class="math inline"><em>y</em>(0.4)=.9200</span> is the answer of the equation.</h1>
+</body>
+</html>
